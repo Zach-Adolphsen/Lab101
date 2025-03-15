@@ -13,8 +13,8 @@ public class Salaried extends Employee {
     public Salaried(int id, String name, String title, int salary)
     {
         super(id, name); // calling the constructor in the "Employee" superclass
-        this.title = title; // refering to this specific instance of 'title'
-        this.salary = salary; // refering to this spcific instance of 'salary'
+        this.title = title; // referring to this specific instance of 'title'
+        this.salary = salary; // referring to this specific instance of 'salary'
     }
     
     public String getTitle(){ return title; } // a getter to read the value of 'title' when called
@@ -25,7 +25,7 @@ public class Salaried extends Employee {
     
     public String toString() // toString() returns a string representation of objects
     {
-        return super.toString() + ":" + getClass().getName() + "@" + title + ":" + salary; //returns 'id' and 'name' form super class aswell as 'title' and 'salary' from "Salaried" subclass
+        return super.toString() + ":" + getClass().getName() + "@" + title + ":" + salary; //returns 'id' and 'name' form super class as well as 'title' and 'salary' from "Salaried" subclass
     }
     
     public boolean equals( Object o )

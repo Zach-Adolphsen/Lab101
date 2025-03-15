@@ -16,7 +16,7 @@ public class Employee {
         employeeCount++;
     }
     
-    public int getid(){ return id; } //a getter method to return the value of 'id' when called
+    public int getId(){ return id; } //a getter method to return the value of 'id' when called
     public void setId(int id){ this.id = id; } //a setter method to allow modification of the value of 'id' when called
     
     public String getName(){ return name; } //a getter to read the value of the 'name' when called
